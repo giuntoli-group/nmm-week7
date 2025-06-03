@@ -57,3 +57,4 @@ dump_modify dumpLog every v_step first yes
 dump_modify dumpLog sort id
 
 run		200000
+write_data      final.data
