@@ -46,7 +46,7 @@ The reinforcement of polymer nanocomposites often comes from the modified behavi
 
 3b. Investigate the polymer bound layer near the surface of the filler particle.
 
-(i) Run the simulation in.composite. For the physical meaning of the following analyses you can also refer to [this paper](https://pubs.aip.org/aip/jcp/article/157/9/094901/2841893/The-effect-of-nanoparticle-softness-on-the)
+(i) Run the simulation in.composite. For the physical meaning of the following analyses you can also refer to [this paper](https://doi.org/10.1063/5.0101551).
 
 (ii) Structural analysis: USE SCRIPTS [ADD INSTRUCTIONS] to calculate the bead density of spherical shells around the filler. Make a plot of the shell density as a function of distance from the center of mass of the filler particle. Can you extract a structural length scale for the bound layer from this plot?
 
