@@ -13,7 +13,7 @@ import numpy as np
 
 
 def main():
-    u, u2 = setup(topology="composite.data", trajectory="productionLog.dat")
+    u, u2 = setup(topology="final.data", trajectory="productionLog.dat")
     shells, selection_indices, L = define_shells(u2)
     time, positions = fetch_positions(u, shells, selection_indices)
     msds = compute_shell_msds(positions)
