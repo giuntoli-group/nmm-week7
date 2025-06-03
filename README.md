@@ -30,7 +30,7 @@ Hint: for lower pulling speeds, remember to increase the simulation length to en
 
 2b. Now uniaxial deformation and crazing of polymer films! 
 
-(i) Open the three data files film1.data, film2.data, film3.data. How do they differ?
+(i) Open the three data files film1.data, film2.data, film3.data. What model is used for the polymer chains? How do the three films differ?
 
 (ii) Run the simulation in.deformFilm three times, using separately the three film_i.data files as the starting configuration. Compare and discuss the mechanical behavior of the three films, observing the simulation in Ovito and the stress curves produced by the script. 
 
@@ -42,6 +42,14 @@ The reinforcement of polymer nanocomposites often comes from the modified behavi
 
 ### Instructions
 
-3a. bound layer analysis
+3a. Open and look at the composite.data file. How is the filler particle modeled?
 
-3b. (Optional) repeat for varying epsilon
+3b. Investigate the polymer bound layer near the surface of the filler particle.
+
+(i) Run the simulation in.composite. For the physical meaning of the following analyses you can also refer to [this paper](https://pubs.aip.org/aip/jcp/article/157/9/094901/2841893/The-effect-of-nanoparticle-softness-on-the)
+
+(ii) Structural analysis: USE SCRIPTS [ADD INSTRUCTIONS] to calculate the bead density of spherical shells around the filler. Make a plot of the shell density as a function of distance from the center of mass of the filler particle. Can you extract a structural length scale for the bound layer from this plot?
+
+(iii) Dynamical analysis: USE SCRIPTS [ADD INSTRUCTIONS] to calculate the MSD for particles belonging to different spherical shells around the filler and plot them as a function of shell number/distance from the center of the filler particle. For each shell, also extract the value of the MSD(1) at time tau=1. This parameter, known as the Debye-Waller factor, [is known to correlate with the elastic modulus of glassy polymers](https://doi.org/10.1016/j.xcrp.2021.100596). If you plot the Debye-Waller factor as a function of shell number/distance, can you extract a dynamics length scale for the bound layer? 
+
+3b. (OPTIONAL) Simulate and discuss how the results depend on the strength of the polymer-filler interactions.
