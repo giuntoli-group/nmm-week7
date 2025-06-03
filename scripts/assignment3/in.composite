@@ -42,12 +42,12 @@ thermo          1000
 ### equilibration
 
 fix npt1 all npt temp ${Temp} ${Temp} 0.5 iso ${Press} ${Press} 5.0
-run             500000
+run             100000
 
 #production
 reset_timestep 0
 
-dump dumpLin all custom 20000 productionLin.dat id type xu yu zu vx vy vz
+dump dumpLin all custom 2000 productionLin.dat id type xu yu zu vx vy vz
 dump_modify dumpLin sort id
 
 
@@ -56,4 +56,4 @@ dump dumpLog all custom 1 productionLog.dat id type xu yu zu vx vy vz
 dump_modify dumpLog every v_step first yes
 dump_modify dumpLog sort id
 
-run		2000000
+run		200000
