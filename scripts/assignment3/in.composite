@@ -20,7 +20,7 @@ group polymer type 2
 ### Coefficients
 
 pair_coeff    * * 1.0 1.0
-pair_coeff    1 2 3.0 1.0
+pair_coeff    1 2 5.0 1.0
 
 bond_coeff * 30.0 1.5 1.0 1.0
 
@@ -28,7 +28,7 @@ fix tether particle spring/self 1000
 
 ### Variables
 
-variable Temp equal 0.3
+variable Temp equal 0.2
 variable Press equal 0.1
 variable velSeed equal 926458  
 
