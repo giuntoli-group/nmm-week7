@@ -20,7 +20,7 @@ Let's go beyond the elastic limit and see how different materials are affected b
 
 ### Instructions
 
-2a. Run the in.crack script that performs a 3D notch fracture simulation of crystalline Silicon. 
+2a. Run the in.crack script that performs a 3D notch fracture simulation of crystalline Silicon (credits to [Eric Hahn](https://www.ericnhahn.com/home) for the original script). 
 
 (i) How is the notch deformation protocol implemented within the script? 
 
