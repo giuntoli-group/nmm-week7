@@ -34,7 +34,7 @@ Hint: for lower pulling speeds, remember to increase the simulation length to en
 
 (ii) Run the simulation in.deformFilm three times, using separately the three film_i.data files as the starting configuration. Compare and discuss the mechanical behavior of the three films, observing the simulation in Ovito and the stress curves produced by the script. 
 
-Hint: the simulation is not super long (~30min or less), but it is large. Plan the requested resources accordingly.
+Hint: the simulation is not super long (~30min or less), but it is large. Plan the requested resources accordingly. Note also that stress components per atom are saved in the trajectory file and can be used for color coding.
 
 ## Assignment 3 - Bound to Succeed
 
