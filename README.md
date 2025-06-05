@@ -52,6 +52,6 @@ The reinforcement of polymer nanocomposites often comes from the modified behavi
 
 (iii) Dynamical analysis: Calculate the MSD for particles belonging to different spherical shells around the filler and plot them as a function of shell number/distance from the center of the filler particle. For each shell, also extract the value of the MSD(1) at time tau=1. This parameter, known as the Debye-Waller factor, [is known to correlate with the elastic modulus of glassy polymers](https://doi.org/10.1016/j.xcrp.2021.100596). If you plot the Debye-Waller factor as a function of shell number/distance, can you extract a dynamics length scale for the bound layer? 
 
-> **Hints for the above calculations:** Actually, there are no hints. Just use the `post_processing.py` and it almost does everything you need. 
+For the above calculations: Use the `post_processing.py` and it almost does everything you need. 
 
 3b. (OPTIONAL) Simulate and discuss how the results depend on the strength of the polymer-filler interactions.
