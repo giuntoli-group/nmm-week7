@@ -54,4 +54,4 @@ The reinforcement of polymer nanocomposites often comes from the modified behavi
 
 For the above calculations: Use the `post_processing.py` and it almost does everything you need. 
 
-3b. (OPTIONAL) Simulate and discuss how the results depend on the strength of the polymer-filler interactions.
+3c. (OPTIONAL) Simulate and discuss how the results depend on the strength of the polymer-filler interactions.
